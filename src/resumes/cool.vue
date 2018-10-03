@@ -48,7 +48,11 @@
 
           <div class="section-content section-content--plain">
             <div class="section-link">
-              <i class="section-link__icon material-icons">business</i>{{ person.contact.street }}
+              <i class="section-link__icon material-icons">business</i>
+              <ul>
+                <li>{{ person.contact.street }}</li>
+                <li>{{ person.contact.city }}</li>
+              </ul>
             </div>
 
             <a
@@ -81,14 +85,16 @@
               v-if="person.contact.github"
               class="section-link"
               :href="'https://github.com/' + person.contact.github">
-              <i class="section-link__icon fa fa-github"></i>{{ person.contact.github }}
+              <i class="section-link__icon section-link__icon--github fa fa-github"></i>
+              github.com/{{ person.contact.github }}
             </a>
 
             <a
               v-if="person.contact.medium"
               class="section-link"
               :href="'https://medium.com/@' + person.contact.medium">
-              <i class="section-link__icon fa fa-medium"></i>{{ person.contact.medium }}
+              <i class="section-link__icon fa fa-medium"></i>
+              medium.com/@{{ person.contact.medium }}
             </a>
           </div>
         </div>
@@ -304,8 +310,12 @@ a {
   margin: 8px 0;
 
   &__icon {
-    margin-right: 8px;
+    margin-right: 12px;
     font-size: 1.4em;
+
+    &--github {
+      margin-right: 16px;
+    }
   }
 }
 
@@ -315,6 +325,17 @@ a {
 
   &__icon {
     color: white;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      padding-top: 0;
+      display: block;
+      color: rgba(255, 255, 255, 0.59) !important;
+    }
   }
 }
 

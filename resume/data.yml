@@ -17,15 +17,15 @@ birth:
 
 experience:
 
-- company: Banco Popolare di Puglia e Basilicata
+- company: Banca Popolare di Puglia e Basilicata
   position: Consultant
   timeperiod: May 2018 - September 2018
   description: Installation and integration of an enterprise software for HelpDesk and Knowledge Base, along with custom developments.
 
-- company: Private
+- company: Law Engineering Systems
   position: Consultant
   timeperiod: November 2017 - May 2018
-  description: Data processing and frontend refactor for a laws/sentences aggregator portal, built with Django and Bootstrap.
+  description: Data processing and frontend refactor for a laws/sentences aggregator portal, built with Django, GraphQL and Bootstrap.
 
 - company: European Innovation Academy 2017
   position: Attendee
@@ -43,9 +43,9 @@ experience:
   description: Unit testing using AngularJS and development of a part of the product.
 
 education:
-- degree: Master
+- degree: Master (currently enrolled)
   timeperiod: since March 2016
-  description: Major in Software Engineering, Politecnico di Torino, Turin, Italy.
+  description: Enrolled in Major in Software Engineering, Politecnico di Torino, Turin, Italy.
 
 - degree: Bachelor
   timeperiod: September 2012 - March 2016
@@ -74,10 +74,12 @@ skills:
   level: 90
 - name: Python
   level: 99
-- name: SQL
-  level: 85
 - name: PHP
   level: 50
+- name: SQL
+  level: 85
+- name: Git
+  level: 99
 - name: Docker
   level: 75
 - name: CI/CD
@@ -91,6 +93,7 @@ contact:
   street: Viale I Maggio, 34
   city: Asciano (SI), 53041
   github: neslinesli93
+  medium: neslinesli93
 
 lang: en
 `
