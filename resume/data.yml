@@ -1,92 +1,96 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Tommaso
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Pifferi
+
+about: >
+  I'm a passionate full stack developer, with special interest in the latest web technologies.
+  I think of myself as a good problem solver, always having the big picture in mind,
+  while also being able to dive down into the tiny little details.
+
+position: Full Stack Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1993
+  location: Siena
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Banco Popolare di Puglia e Basilicata
+  position: Consultant
+  timeperiod: May 2018 - September 2018
+  description: Installation and integration of an enterprise software for HelpDesk and Knowledge Base, along with custom developments.
 
-- company: Company C
+- company: Private
+  position: Consultant
+  timeperiod: November 2017 - May 2018
+  description: Data processing and frontend refactor for a laws/sentences aggregator portal, built with Django and Bootstrap.
+
+- company: European Innovation Academy 2017
+  position: Attendee
+  timeperiod: July 2017
+  description: Summer school/Startup accelerator. In three weeks you go from an idea, to customer validation, and end up talking with real investors. Placed third.
+
+- company: LogiBrick SRL
+  position: Co-Founder
+  timeperiod: since December 2016
+  description: Consulting company with focus on simplicity and customer happiness.
+
+- company: Scloby SRL
   position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+  timeperiod: April 2015 - July 2015
+  description: Unit testing using AngularJS and development of a part of the product.
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Master
+  timeperiod: since March 2016
+  description: Major in Software Engineering, Politecnico di Torino, Turin, Italy.
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Bachelor
+  timeperiod: September 2012 - March 2016
+  description: Bachelor in Computer Engineering, Politecnico di Torino, Turin, Italy.
 
-# skill level goes 0 to 100
+projects:
+- name: ForecastCycles
+  description: A SaaS where traders can get statistical and seasonal advice,
+               built with NodeJS, React and Semantic UI
+  url: https://forecastcycles.com
+
 skills:
 - name: HTML5
   level: 99
 - name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
-  level: 80
-- name: ES.Next
   level: 70
-- name: Docker
+- name: SCSS
+  level: 70
+- name: JavaScript
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
-
-projects:
-- name: best-resume-ever
-  platform: Vue
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
-
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
-
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
-
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: Node.js
+  level: 99
+- name: React
+  level: 75
+- name: AngularJS
+  level: 90
+- name: Python
+  level: 99
+- name: SQL
+  level: 85
+- name: PHP
+  level: 50
+- name: Docker
+  level: 75
+- name: CI/CD
+  level: 70
+- name: Ansible
+  level: 70
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
-# en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el
+  email: p.tommy93@gmail.com
+  phone: +39 333 5426190
+  street: Viale I Maggio, 34
+  city: Asciano (SI), 53041
+  github: neslinesli93
+
 lang: en
 `

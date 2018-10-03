@@ -57,9 +57,11 @@
               <i class="section-link__icon material-icons">mail</i>{{ person.contact.email }}
             </a>
 
-            <div class="section-link">
+            <a
+              class="section-link"
+              :href="'tel:'+person.contact.phone">
               <i class="section-link__icon material-icons">phone</i>{{ person.contact.phone }}
-            </div>
+            </a>
 
             <a
               v-if="person.contact.website"
@@ -111,7 +113,9 @@
                 <span class="section-content__plain">{{ experience.location }}</span>
               </span>
 
-              <div class="section-content__text">{{ experience.timeperiod }}</div>
+              <div class="section-content__text section-content__text--subheader">
+                {{ experience.timeperiod }}
+              </div>
               <span class="section-content__text--light">{{ experience.description }}</span>
             </a>
           </div>
@@ -131,7 +135,9 @@
 
               <span class="section-content__header"> {{ education.school }} </span>
               <span class="section-content__subheader">{{ education.degree }}</span>
-              <span class="section-content__text"> {{ education.timeperiod }} </span>
+              <span class="section-content__text section-content__text--subheader">
+                {{ education.timeperiod }}
+              </span>
               <span class="section-content__text--light"> {{ education.description }} </span>
             </a>
           </div>
@@ -144,13 +150,17 @@
             <i class="section-headline__icon material-icons">code</i>{{ lang.projects }}
           </div>
 
-          <div class="section-content-grid">
+          <div class="section-content-grid section-content-grid--padded">
             <a v-for="(project, index) in person.projects" :key="index"
-              class="section-content__item-grid"
-              :href="project.url">
-              <span class="section-content__header"> {{ project.name }} </span>
+              class="section-content__item-grid">
+              <span class="section-content__header section-content__header--padded">
+                {{ project.name }}
+              </span>
               <span class="section-content__subheader">{{ project.platform }}</span>
               <span class="section-content__text"> {{ project.description }} </span>
+              <span class="section-content__link">
+                <a :href="project.url">{{ project.url }}</a>
+              </span>
             </a>
           </div>
         </div>
@@ -315,18 +325,22 @@ a {
 
   &__item {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 16px;
   }
 
   &__header {
     display: block;
     font-size: 1.1em;
     font-weight: 500;
+
+    &--padded {
+      margin-bottom: 5px;
+    }
   }
 
   &__subheader {
     display: block;
-    font-weight: 400;
+    font-weight: 700;
   }
 
   &__plain,
@@ -337,6 +351,19 @@ a {
     &--light {
       font-size: 12px;
     }
+
+    &--subheader {
+      color:rgba(0,0,0,0.541176);
+      margin: 2px 0;
+    }
+  }
+
+  &__link {
+    display: block;
+    font-size: 12px;
+    margin-top: 4px;
+    color:rgba(0,0,0,0.541176);
+    cursor: pointer;
   }
 
   &__plain {
@@ -360,6 +387,10 @@ a {
   flex-wrap: wrap;
   margin-top: 5px;
   margin-bottom: 5px;
+
+  &--padded {
+    padding-left: 32px;
+  }
 }
 
 .grid-item {
