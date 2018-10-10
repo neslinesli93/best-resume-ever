@@ -17,34 +17,42 @@ birth:
 
 experience:
 
-- company: Banca Popolare di Puglia e Basilicata
+- company: Banca Popolare di Puglia e Basilicata - Altamura, Italy
   position: Consultant
   timeperiod: May 2018 - September 2018
-  description: Installation and integration of an enterprise software for HelpDesk and Knowledge Base, along with custom developments.
+  description: >
+    Installation, integration and custom developments for a HelpDesk and Knowledge Base
+    enterprise software, written in C#.
 
-- company: Law Engineering Systems
+- company: Law Engineering Systems - Siena, Italy
   position: Consultant
   timeperiod: November 2017 - May 2018
-  description: Data processing and frontend refactor for a laws/sentences aggregator portal, built with Django, GraphQL and Bootstrap.
+  description: >
+    Data processing and frontend refactor for a laws and sentences aggregator portal,
+    built with Django, GraphQL and Bootstrap.
 
-- company: European Innovation Academy 2017
+- company: European Innovation Academy 2017 - Turin, Italy
   position: Attendee
   timeperiod: July 2017
-  description: Summer school/Startup accelerator. In three weeks you go from an idea, to customer validation, and end up talking with real investors. Placed third.
+  description: >
+    Summer school/Startup accelerator. In three weeks you go from an idea,
+    to customer validation, and end up talking with real investors. Placed third.
 
-- company: LogiBrick SRL
+- company: LogiBrick SRL - Siena, Italy
   position: Co-Founder
-  timeperiod: since December 2016
+  timeperiod: December 2016 - Present
   description: Consulting company with focus on simplicity and customer happiness.
 
-- company: Scloby SRL
+- company: Scloby SRL - Turin, Italy
   position: Trainee
   timeperiod: April 2015 - July 2015
-  description: Unit testing using AngularJS and development of a part of the product.
+  description: >
+    Unit testing and developments on the core product, a management
+    mobile app for restaurants and shops in general, built with AngularJS and Cordova.
 
 education:
 - degree: Master (currently enrolled)
-  timeperiod: since March 2016
+  timeperiod: March 2016 - Present
   description: Enrolled in Major in Software Engineering, Politecnico di Torino, Turin, Italy.
 
 - degree: Bachelor
@@ -53,9 +61,16 @@ education:
 
 projects:
 - name: ForecastCycles
-  description: A SaaS where traders can get statistical and seasonal advice,
-               built with NodeJS, React and Semantic UI
+  description: >
+    A SaaS where traders can get statistical and seasonal advice,
+    built with NodeJS, React and Semantic UI
   url: https://forecastcycles.com
+
+- name: Sigma
+  description: >
+    An enterprise management system for real estate assets, created from scratch for
+    large institutions and banks. Built with NodeJS, AngularJS and AngularJS Material.
+  url: http://www.sigmaleasing.it
 
 skills:
 - name: HTML5

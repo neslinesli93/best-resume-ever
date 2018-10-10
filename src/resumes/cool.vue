@@ -395,7 +395,7 @@ a {
   &__item-grid {
     flex: 1 1 0;
     margin-bottom: 5px;
-    padding-right: 5px;
+    padding-right: 10px;
   }
 
   &--plain {
