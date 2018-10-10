@@ -68,7 +68,7 @@ projects:
 
 - name: Sigma
   description: >
-    An enterprise management system for real estate assets, created from scratch for
+    An enterprise management system for real estate assets, created for
     large institutions and banks. Built with NodeJS, AngularJS and AngularJS Material.
   url: http://www.sigmaleasing.it
 

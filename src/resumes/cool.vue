@@ -395,7 +395,11 @@ a {
   &__item-grid {
     flex: 1 1 0;
     margin-bottom: 5px;
-    padding-right: 10px;
+    margin-right: 20px;
+  }
+
+  &__item-grid:last-child {
+    margin-right: 0;
   }
 
   &--plain {
