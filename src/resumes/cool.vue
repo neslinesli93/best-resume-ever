@@ -367,10 +367,10 @@ a {
   &__plain,
   &__text {
     display: block;
-    font-size: 12px;
+    font-size: 11px;
 
     &--light {
-      font-size: 12px;
+      font-size: 11px;
     }
 
     &--subheader {

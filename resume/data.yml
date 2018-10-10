@@ -63,7 +63,7 @@ projects:
 - name: ForecastCycles
   description: >
     A SaaS where traders can get statistical and seasonal advice,
-    built with NodeJS, React and Semantic UI
+    built with NodeJS, React and Semantic UI.
   url: https://forecastcycles.com
 
 - name: Sigma
