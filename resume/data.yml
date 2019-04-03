@@ -17,6 +17,13 @@ birth:
 
 experience:
 
+- company: Prima Assicurazioni S.p.A - Milan, Italy
+  position: Full stack developer
+  timeperiod: November 2018 - Present
+  description: >
+    Developments on internal microservices, especially on the claims management system.
+    Elixir, Elm, AWS and Docker.
+
 - company: Banca Popolare di Puglia e Basilicata - Altamura, Italy
   position: Consultant
   timeperiod: May 2018 - September 2018
@@ -83,14 +90,16 @@ skills:
   level: 99
 - name: Node.js
   level: 99
+- name: Elixir
+  level: 70
 - name: React
   level: 75
+- name: Elm
+  level: 80
 - name: AngularJS
   level: 90
 - name: Python
   level: 99
-- name: PHP
-  level: 50
 - name: SQL
   level: 85
 - name: Git
@@ -103,10 +112,8 @@ skills:
   level: 70
 
 contact:
+  website: tommasopifferi.com
   email: p.tommy93@gmail.com
-  phone: +39 333 5426190
-  street: Viale I Maggio, 34
-  city: Asciano (SI), 53041
   github: neslinesli93
   medium: neslinesli93
 

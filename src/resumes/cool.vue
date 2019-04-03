@@ -47,7 +47,7 @@
           </div>
 
           <div class="section-content section-content--plain">
-            <div class="section-link">
+            <div class="section-link" v-if="person.contact.street && person.contact.city">
               <i class="section-link__icon material-icons">business</i>
               <ul>
                 <li>{{ person.contact.street }}</li>
@@ -56,22 +56,23 @@
             </div>
 
             <a
+              v-if="person.contact.website"
+              class="section-link"
+              :href="'https://' + person.contact.website">
+              <i class="section-link__icon section-link__icon--website fa fa-globe"></i>{{ person.contact.website }}
+            </a>
+
+            <a
               class="section-link"
               :href="'mailto:' + person.contact.email">
               <i class="section-link__icon material-icons">mail</i>{{ person.contact.email }}
             </a>
 
             <a
+              v-if="person.contact.phone"
               class="section-link"
               :href="'tel:'+person.contact.phone">
               <i class="section-link__icon material-icons">phone</i>{{ person.contact.phone }}
-            </a>
-
-            <a
-              v-if="person.contact.website"
-              class="section-link"
-              :href="person.contact.website">
-              <i class="section-link__icon fa fa-globe"></i>{{ person.contact.website }}
             </a>
 
             <a
@@ -194,8 +195,6 @@
         </div>
       </div>
     </div>
-
-    <img class="picture"/>
   </div>
 </template>
 
@@ -247,7 +246,7 @@ a {
 
 .banner {
   width: calc(100% - @base-padding * 2);
-  height: @banner-height;
+  // height: @banner-height;
   padding: @base-padding;
   background-color: @banner-color;
   /*
@@ -278,7 +277,7 @@ a {
   &__left,
   &__right {
     height: 100%;
-    padding: @base-padding;
+    padding: 0 @base-padding;
   }
 
   &__left {
@@ -315,6 +314,10 @@ a {
 
     &--github {
       margin-right: 16px;
+    }
+
+    &--website {
+      margin-right: 14px;
     }
   }
 }
