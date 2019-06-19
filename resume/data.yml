@@ -77,7 +77,7 @@ projects:
   description: >
     An enterprise management system for real estate assets, created for
     large institutions and banks. Built with NodeJS, AngularJS and AngularJS Material.
-  url: http://www.sigmaleasing.it
+  url: https://sigma.logibrick.com
 
 skills:
 - name: HTML5
