@@ -22,7 +22,7 @@ experience:
   timeperiod: November 2018 - Present
   description: >
     Developments on internal microservices, especially on the claims management system.
-    Elixir, Elm, AWS and Docker.
+    Mostly Elixir and Elm, sometimes Rust and React with Typescript.
 
 - company: Banca Popolare di Puglia e Basilicata - Altamura, Italy
   position: Consultant
@@ -86,16 +86,18 @@ skills:
   level: 70
 - name: SCSS
   level: 70
-- name: JavaScript
+- name: Typescript
   level: 99
 - name: Node.js
   level: 99
 - name: Elixir
+  level: 99
+- name: Rust
   level: 70
+- name: Elm
+  level: 99
 - name: React
   level: 75
-- name: Elm
-  level: 80
 - name: AngularJS
   level: 90
 - name: Python
